@@ -1,0 +1,20 @@
+/*=====MAIN PAGE STYLES=====*/
+
+ /* .dashed{border: 4px dashed white;} */ /* a "." refers to a class */
+html{overflow-x: hidden;}
+ body{font-size: 20px; margin: 0; background-repeat: no-repeat; background-size: 100% 100%;}
+
+h1{font-family: 'Fruktur', cursive;}
+h2{font-family: 'Fontdiner Swanky', cursive;}
+
+#menu-bar{height: 100px; width: 100%;
+	position: fixed;
+	background-color: rgba(135,206,235, 0.2); /* border: 1px dashed black; */}
+#main-area{ text-align: center;}
+#first-area{padding-top: 100px;}
+
+#footer-bar{height: 100px; width: 100%; background-color: rgba(135,206,235, 0.2);/*  border: 1px dashed blue; */}
+
+#menu-bar,#footer-bar,#main-area{padding: 0px 15px;}
+#the-gif{width:100%; max-width: 800px; margin-bottom: 50vh;}/*  vh= % of viewport height */
+
